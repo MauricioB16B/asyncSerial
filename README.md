@@ -1,1 +1,1 @@
-A simple non bloking Serial read and write
+A simple non bloking Serial read and write.
