@@ -1,0 +1,30 @@
+{
+    "name": "asyncSerial",
+    "version": "1.0.0",
+    "description": "Lib to alow read from serial on non-bloking code",
+    "keywords": "clock synchronization non-blocking, async, serial, tx, rx, uart, callback, core",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/MauricioB16B/asyncSerial.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Mauricio Carvalho",
+        "email": "mauriciocarvalho500@gmail.com",
+        "maintainer": true
+      }
+    ],
+    "export": {
+      "exclude":
+      [
+          "test/*"
+      ]
+    },
+    "license": "MIT",
+    "dependencies": {
+    },
+    "frameworks": ["Arduino"],
+    "platforms": ["espressif8266", "esp-38-pin"]
+  }
